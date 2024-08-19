@@ -14,7 +14,7 @@ app.get("/test", (req, res) => {
   // res merupakan variabel yang berisi data response dari end-point
   // membuat objek yang berisi data yang akan dijadikan response
   let response = {
-    message: "Ini end-point pertama ku",
+    message: "Ini end-point pertama",
     method: req.method,
     code: res.statusCode,
   };
